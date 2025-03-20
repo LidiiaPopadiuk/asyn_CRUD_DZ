@@ -177,6 +177,6 @@ function updateStudent(e) {
 tbodylist.addEventListener("click", (e) => {
   e.preventDefault();
   if (e.target.classList.contains("change-student")) {
-    deleteStudent(e);
+    updateStudent(e);
   }
 });
